@@ -1,0 +1,25 @@
+body{
+    background: url("../images/background.jpg");
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.signin-buttons{
+    background: blue;
+    padding: 8px;
+    color: white;
+    min-width: 75px;
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.post-buttons{
+    background: #CBB359;
+    padding: 8px;
+    color: black;
+    min-width: 75px;
+}
