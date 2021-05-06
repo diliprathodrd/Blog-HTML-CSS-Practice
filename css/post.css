@@ -1,0 +1,63 @@
+body {
+  background-color: #cbb359;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.signin-buttons {
+  background: blue;
+  padding: 8px;
+  color: white;
+  min-width: 75px;
+}
+.card {
+  display: flex;
+  background-color: #d8ebe4;
+  border-radius: 16px;
+  overflow: hidden;
+  max-width: 40%;
+  margin-top: 16px;
+
+  box-shadow: 4px 4px 17px 0px rgba(72, 72, 72, 0.75);
+  -webkit-box-shadow: 4px 4px 17px 0px rgba(72, 72, 72, 0.75);
+  -moz-box-shadow: 4px 4px 17px 0px rgba(72, 72, 72, 0.75);
+}
+.author-container {
+  flex-basis: 20%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.post-container {
+  flex-basis: 80%;
+  padding: 16px;
+  position: relative;
+}
+.post-container:hover{
+    background-color: lightgreen;
+}
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.fa-trash {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  cursor: pointer;
+}
+.fa-ellipsis-h {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  cursor: pointer;
+}
+.fa-trash:hover{
+    color: red;
+}
+.fa-ellipsis-h:hover{
+    color: green;
+}
